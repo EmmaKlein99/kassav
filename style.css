@@ -13,6 +13,9 @@ background: linear-gradient(90deg, rgba(236,73,31,1) 0%, rgba(237,131,34,1) 16%,
     max-width: 100%;
     width: 10%;
 }
+.albums{
+    
+}
 .kassavinfo{
 font-family: impact;
 }
@@ -26,7 +29,7 @@ font-family: impact;
     font-family: impact;
 }
 .news_and_announcements{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact;
     text-align:left
 }
 .news_and_announcements img{
@@ -34,5 +37,5 @@ font-family: impact;
     width: 25%;
 }
 .info{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Impact;
 }
