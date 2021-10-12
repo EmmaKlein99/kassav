@@ -16,6 +16,14 @@ background: linear-gradient(90deg, rgba(236,73,31,1) 0%, rgba(237,131,34,1) 16%,
 .albums{
     
 }
+.albums__list{
+    list-style-type: none;
+    padding: 0;
+    
+}
+.albums__album{
+    
+}
 .kassavinfo{
 font-family: impact;
 }
