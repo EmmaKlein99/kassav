@@ -10,7 +10,7 @@ body {
   );
 }
 .music {
-  text-align: right;
+  text-align: center;
 }
 .music img {
   max-width: 100%;
@@ -46,19 +46,24 @@ body {
 
 .kassavinfo {
   font-family: impact;
+  color: white;
 }
 .kassavinfo p {
   font-family: Impact;
+  color: white;
 }
 .zoukinfo {
   font-family: impact;
+  color: white;
 }
 .zoukinfo p {
   font-family: impact;
+  color: white;
 }
 .news_and_announcements {
   font-family: Impact;
   text-align: left;
+  color: white;
 }
 .news_and_announcements img {
   max-width: 100%;
@@ -66,4 +71,5 @@ body {
 }
 .info {
   font-family: Impact;
+  color: white;
 }
