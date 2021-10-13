@@ -43,7 +43,7 @@ body {
   }
   
   /* - - -  - - - - - - - - - - - - - - */
-  
+  /*text styling*/
   .kassavinfo {
     font-family: impact;
   }
@@ -68,5 +68,43 @@ body {
     font-family: Impact;
   }
 
+  /* styling on links */
+  .links{
+    font-family: Impact;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+  }
+  .links a:visited {
+    a:link {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: #69220E;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: #587958;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: #2A90DD;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+  }
+  /*styling on social media icons and links*/
+.so_me {
+  text-align: center;
+  list-style-type: none;
+  padding: 1em;
+}
 
 
