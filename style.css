@@ -36,10 +36,14 @@ body {
   
   /* Glide.js styling */
   .glide__arrow {
+    border-color: #587958;
+    color: #587958;
   }
   .glide__arrow--right {
+    color: #587958;
   }
   .glide__arrow--left {
+    border-color: #587958;
   }
   
   /* - - -  - - - - - - - - - - - - - - */
