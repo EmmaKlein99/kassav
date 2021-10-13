@@ -67,6 +67,36 @@ body {
   .info {
     font-family: Impact;
   }
+  .links{
+    font-family: Impact;
+    color: white;
+    
+  }
+  .links a:visited {
+    a:link {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: #69220E;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: #587958;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: y#2A90DD;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+  }
 
 
 
