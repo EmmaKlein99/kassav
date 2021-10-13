@@ -69,37 +69,32 @@ body {
   }
 
   /* styling on links */
-  .links{
-    font-family: Impact;
-    color: white;
+  .links {
     text-align: center;
     list-style-type: none;
+  }  
+  .links a {
+    font-family: Impact;
+    color: white;
+    text-decoration: none;
   }
-  .links a:visited {
-    a:link {
-      color: white;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    
-    a:visited {
+.links a:visited {
       color: #69220E;
       background-color: transparent;
       text-decoration: none;
     }
     
-    a:hover {
+    .links a:hover {
       color: #587958;
       background-color: transparent;
       text-decoration: underline;
     }
     
-    a:active {
+    .links a:active {
       color: #2A90DD;
       background-color: transparent;
       text-decoration: underline;
     }
-  }
   /*styling on social media icons and links*/
 .so_me {
   text-align: center;
