@@ -43,7 +43,7 @@ body {
   }
   
   /* - - -  - - - - - - - - - - - - - - */
-  
+  /*text styling*/
   .kassavinfo {
     font-family: impact;
   }
@@ -74,7 +74,6 @@ body {
     color: white;
     text-align: center;
     list-style-type: none;
-    
   }
   .links a:visited {
     a:link {
@@ -101,9 +100,11 @@ body {
       text-decoration: underline;
     }
   }
-  .so_me {
+  /*styling on social media icons and links*/
+.so_me {
   text-align: center;
   list-style-type: none;
+  padding: 1em;
 }
 
 
