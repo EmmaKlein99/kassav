@@ -67,9 +67,13 @@ body {
   .info {
     font-family: Impact;
   }
+
+  /* styling on links */
   .links{
     font-family: Impact;
     color: white;
+    text-align: center;
+    list-style-type: none;
     
   }
   .links a:visited {
@@ -92,11 +96,14 @@ body {
     }
     
     a:active {
-      color: y#2A90DD;
+      color: #2A90DD;
       background-color: transparent;
       text-decoration: underline;
     }
   }
-
+  .so_me {
+  text-align: center;
+  list-style-type: none;
+}
 
 
