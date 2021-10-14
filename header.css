@@ -1,0 +1,41 @@
+header{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "top" "top" "top"
+        "top" "top" "top"
+        "down" "down" "down";
+}
+
+.header_bgvideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(236, 73, 31);
+    background: linear-gradient(
+      90deg,
+      rgba(236, 73, 31, 1) 0%,
+      rgba(237, 131, 34, 1) 16%,
+      rgba(239, 208, 37, 1) 35%,
+      rgba(240, 131, 45, 1) 51%,
+      rgba(236, 79, 31, 1) 65% );
+    z-index: 2;
+   
+}
+
+.header_logo{
+    position: absolute;
+    margin-top: 3em;
+    grid-area: top;
+}
+
+.header_scrolldown{
+    grid-area: down;
+    max-width: 20%;
+    opacity: 50%;
+    position: initial;
+
+}
