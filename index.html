@@ -17,6 +17,13 @@
   </head>
 
   <body>
+      <!------pop up test-->
+      <script>
+           function togglePopup(){
+    document.getElementByID("popup1").classList.toggle("active");
+  }
+      </script>
+      <!---- pop up test------------------>
     <header class="header">
           <img src="logo/mynd_logo_kassav.PNG" alt="Kassav logo">
           <video autoplay muted loop class="header_bgvideo">
@@ -24,6 +31,16 @@
           </video>
     </header>
     <main>
+        <!--popup try-->
+        <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content"></div>
+        <div class="close_button" onclick="togglePopup()">&times;</div>
+        <h1>Welcome to the official website of Kassav´</h1>
+        <p>Press the button below and subscribe to Kassav´s newsletter</p>
+        </div>
+        <button onclick="togglePopup()">subscribe to newsletter</button>
+          <!------------------------------>
       <section class="info">
         <article>
           <h3 class="zoukinfo">What is Zouk?</h3>
