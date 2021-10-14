@@ -37,6 +37,7 @@ body {
 .header__arrow {
   width: 100%;
 z-index: 1;
+opacity: 60%;
 }
 
 
@@ -53,6 +54,11 @@ z-index: 1;
     display: none;
     font-family: Impact;
   }
+
+.main__welcome{
+  font-family: Impact;
+}
+
   .popup .content {
     position: absolute;
     top: 50%;
