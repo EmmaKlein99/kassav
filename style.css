@@ -57,7 +57,20 @@ opacity: 60%;
 
 .main__welcome{
   font-family: Impact;
+  margin: 1em;
+  text-align: center;
 }
+
+.main__sub{
+  font-family: Impact;
+  margin: 1em;
+  text-align: center;
+}
+
+button {
+  
+}
+
 
   .popup .content {
     position: absolute;
@@ -104,7 +117,7 @@ opacity: 60%;
  
 /*------------------------------------*/
   .music {
-    text-align: right;
+  
   }
   .music img {
     max-width: 100%;
@@ -139,6 +152,10 @@ opacity: 60%;
   .glide__arrow--left {
     border-color: #587958;
   }
+
+  .glide__track {
+    margin: 1em;
+  }
   
   /* - - -  - - - - - - - - - - - - - - */
   /*text styling*/
@@ -157,13 +174,17 @@ opacity: 60%;
   .news_and_announcements {
     font-family: Impact;
     text-align: left;
+    margin: 1em;
   }
   .news_and_announcements img {
     max-width: 100%;
     width: 25%;
+    margin: 1em;
   }
   .info {
     font-family: Impact;
+    margin: 1em;
+    text-align: center;
   }
 
   /* styling on links */
