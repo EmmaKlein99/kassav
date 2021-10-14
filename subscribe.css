@@ -8,7 +8,27 @@
       rgba(240, 131, 45, 1) 51%,
       rgba(236, 79, 31, 1) 65%
     );
-    font-family: Impact;
-    color: white
+    
   }
   
+.h2__kassav {
+  font-family: Impact;
+  color: white;
+  font-weight: normal;
+}
+
+.h2__subscribe {
+  font-family: Impact;
+  color: white;
+  font-weight: normal;
+}
+
+.p__email{
+  font-family: Impact;
+  color: white
+  
+}
+
+.newsletter {
+  color: white;
+}
