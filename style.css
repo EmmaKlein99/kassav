@@ -119,6 +119,7 @@ body {
   .news_and_announcements {
     font-family: Impact;
     text-align: left;
+    color: white;
   }
   .news_and_announcements img {
     max-width: 100%;
@@ -126,6 +127,7 @@ body {
   }
   .info {
     font-family: Impact;
+    color: white;
   }
 
   /* styling on links */
