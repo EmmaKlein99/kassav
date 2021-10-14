@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Subscribe to Kassav´</title>
+
+    <link rel="stylesheet" href="subscribe.css" />
+
 <style>
 body {font-family: Impact;background-color: rgb(236, 73, 31);
     background: linear-gradient(
@@ -31,18 +34,20 @@ input[type=text], input[type=submit] {
   padding: 12px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   box-sizing: border-box;
 }
 
 input[type=checkbox] {
   margin-top: 16px;
+  
 }
 
 input[type=submit] {
-  background-color: #587958;
-  color: white;
+  background-color: white;
+  color:  white;
   border: none;
+  direction: none;
 }
 
 input[type=submit]:hover {
@@ -51,18 +56,18 @@ input[type=submit]:hover {
 </style>
 <body>
 
-<h2>Follow along with Kassav´</h2>
+<h2 class="h2__kassav">Follow along with Kassav´</h2>
 
 <form action="/action_page.php">
   <div class="container">
-    <h2>Subscribe to our Newsletter</h2>
-    <p>By subscribing you get all our new direct sent to you email </p>
+    <h2 class="h2__subscribe">Subscribe to our Newsletter</h2>
+    <p class="p__email">By subscribing you get all our new direct sent to you email </p>
   </div>
 
   <div class="container" style="background-color:#EC4920">
     <input type="text" placeholder="Name" name="name" required>
     <input type="text" placeholder="Email address" name="mail" required>
-    <label>
+    <label class="newsletter">
       <input type="checkbox" checked="checked" name="subscribe"> Newsletter
     </label>
   </div>
