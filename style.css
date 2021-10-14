@@ -67,10 +67,6 @@ opacity: 60%;
   text-align: center;
 }
 
-button {
-  
-}
-
 
   .popup .content {
     position: absolute;
@@ -117,11 +113,39 @@ button {
  
 /*------------------------------------*/
   .music {
-  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "news tops top2"
+    "image music top2"
+    "image music2 top2";
   }
+
+  .spotify {
+    grid-area: tops;
+    max-width: 100%;
+  }
+
+  .news {
+    grid-area: news;
+  }
+
+  .newspic {
+    grid-area: image;
+  }
+
+  .itunes {
+    grid-area: music;
+    width: 100%;
+  }
+
+  .playliste {
+    grid-area: top2;
+  }
+  
   .music img {
     max-width: 100%;
-    width: 10%;
   }
   
   /* - - -  Albums - - - - - - - - - - - - - - */
@@ -173,12 +197,11 @@ button {
   }
   .news_and_announcements {
     font-family: Impact;
-    text-align: left;
     margin: 1em;
+    grid-area: news;
   }
   .news_and_announcements img {
     max-width: 100%;
-    width: 25%;
     margin: 1em;
   }
   .info {
