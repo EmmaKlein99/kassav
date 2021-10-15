@@ -1,0 +1,35 @@
+* {
+    background: rgb(236, 73, 31);
+    background: linear-gradient(
+      90deg,
+      rgba(236, 73, 31, 1) 0%,
+      rgba(237, 131, 34, 1) 16%,
+      rgba(239, 208, 37, 1) 35%,
+      rgba(240, 131, 45, 1) 51%,
+      rgba(236, 79, 31, 1) 65%
+    );
+    
+  }
+  
+.h2__kassav {
+  font-family: Impact;
+  color: white;
+  font-weight: normal;
+}
+
+.h2__subscribe {
+  font-family: Impact;
+  color: white;
+  font-weight: normal;
+}
+
+.p__email{
+  font-family: Impact;
+  color: white
+  
+}
+
+.newsletter {
+  color: white;
+}
+

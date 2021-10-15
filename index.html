@@ -5,23 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kassav´</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="footer.css" />
+    
     <!--
         Glide.js stylesheets
         glidejs.com
     -->
     <link rel="stylesheet" href="glide/glide.core.min.css" />
     <link rel="stylesheet" href="glide/glide.theme.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css">
   </head>
 
   <body>
-    <header>
-      <h1>
-          <img src="logo/mynd_logo_kassav.PNG" alt="Kassav logo">
-      </h1>
+      <!------pop up test-->
+      <script>
+           function togglePopup(){
+    document.getElementByID("popup1").classList.toggle("active");
+  }
+      </script>
+      <!---- pop up test------------------>
+    <header class="header">
+          <img class="header__logo" src="logo/mynd_logo_kassav.PNG" alt="Kassav logo">
+          <a href="#main"><img class="header__arrow" src="social_media/scroll_down.png" alt="arrow"></a>
+          <video autoplay muted loop class="header_bgvideo">
+            <source src="bgvideo_kassav.mp4" type="video/mp4">
+          </video>
+         
     </header>
-    <main>
+    <main id="main">
+        <!--popup try-->
+        <!-- <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content"></div>
+        <div class="close_button" onclick="togglePopup()">&times;</div> -->
+        <h1 class="main__welcome">Welcome to the official website of Kassav´</h1>
+        <p class="main__sub">Press the button below and subscribe to Kassav´s newsletter</p>
+        </div>
+        <button onclick="togglePopup()" class="main__subbutton"><a href="subscribe.html">subscribe to newsletter</a></button>
+          <!------------------------------>
       <section class="info">
         <article>
           <h3 class="zoukinfo">What is Zouk?</h3>
@@ -39,8 +60,7 @@
             core members of the band are Jacob Desvarieux, Jocelyne Béroard,
             Jean-Philippe Marthély, Patrick St. Eloi, Jean-Claude Naimro, Claude
             Vamur, and Georges Décimus (who left to form Volt Face and
-            returned). Kassav' have issued over 20 albums, with a further 12
-            solo albums by band members.
+            returned). Kassav' have issued over 50 albums incl. solo albums by band members. Jacob Desvarieux recived "Ordre National Du Mérite", "Ordre Des Artes Et Des lattres", "Legion of Honors" and "National order of the Lion". Jocelyne Béroard won a Gold Disc for her album Siwo (the all-time biggest seller for an album by a female in the West Indies). Béroard also recived Legion of Honor both Night and Officer. Kassav´s album "An-Ba-Chen´n La", "Majestik Zouk" and "Tékit Izi" were all 2x Gold albums. "Vini Pou" was Gold and Platium albums.
           </p>
         </article>
       </section>
@@ -221,7 +241,7 @@
             </ul>
           </div>
           <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir=">">
               prev
             </button>
             <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
@@ -230,19 +250,19 @@
           </div>
         </div>
       </section>
-      <section class="news_and_announcements">
-        <h3>NEWS and announcments</h3>
-        <img
+      <!--<section class="news_and_announcements">
+        <h3 class="news">NEWS and announcments</h3>
+        <img class=""
           src="news_and_announcements/news_fra_Kassav.PNG"
           alt="News and announcements"
-        />
+        />-->
       </section>
 
       <!--Itunes and Spotify plus player from Spotify-->
       <section class="music">
-        <a href=""></a><img src="social_media/spotify.png" alt="Spotify" /></a>
-        <img src="social_media/itunes.png" alt="Itunes" />
-        <section>
+        <!--<a href="">--></a><img class="spotify" src="social_media/spotify.png" alt="Spotify" /></a>
+        <img class="itunes" src="social_media/itunes.png" alt="Itunes" />
+        <section class="playliste">
           <iframe class="spotify__player"
             src="https://open.spotify.com/embed/artist/3y21aFfQQ1Y9dALQLIJ4vj"
             width="100%"
@@ -251,6 +271,13 @@
             allowfullscreen=""
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           ></iframe>
+        </section>
+        <section class="news_and_announcements">
+          <h3 class="news">NEWS and announcments</h3>
+          <img class="newspic"
+            src="news_and_announcements/news_fra_Kassav.PNG"
+            alt="News and announcements"
+          />
         </section>
         <!-------------------------------------------------------------->
     <!-- Glide.js Javascript -->
@@ -263,6 +290,26 @@
         perView: 3,
       }).mount();
     </script>
+
+<footer>
+    <section class="links">
+        <li>
+            <a href="mailto:book@kassav.com">Bookings</a>
+        </li>
+        <li>
+            <a href="https://www.merchbar.com/vinyl-records/kassav" target="_blank">Merchandise & Vinyl</a>
+        </li>
+    </section>
+    <section class="so_me">
+        <li>
+            <a href="https://www.facebook.com/kassavofficiel"><img src="social_media/facebook_white.png" alt="Facebook link" style="width:42px;height:42px;"></a>
+            <a href="https://www.instagram.com/kassav_official/"><img src="social_media/insta_white.png" alt="Instagram link" style="width:42px;height:42px;"></a>
+            <a href="https://twitter.com/kassav_official"><img src="social_media/twitter_white.png" alt="Twitter link" style="width:42px;height:42px;"></a>
+            <a href="https://www.youtube.com/channel/UCFRsJSL9aFLh0fniWEoq9sQ"><img src="social_media/youtube_white.png" alt="Youtube link" style="width:42px;height:42px;"></a>
+        </li>
+    
+    </section>
+</footer>
   </body>
 </html>
 
